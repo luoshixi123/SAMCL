@@ -160,8 +160,6 @@ def do_train_stage0(args,
             centers = torch.stack(centers, dim=0)
             return centers
 
-        cluster_features_rgb = generate_cluster_features(pseudo_labels_rgb, features_rgb)
-        cluster_features_ir = generate_cluster_features(pseudo_labels_ir, features_ir)
 
         del features_rgb, features_ir, cluster_loader_rgb, cluster_loader_ir, rerank_dist_rgb, rerank_dist_ir
 
