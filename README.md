@@ -47,3 +47,4 @@ CUDA_VISIBLE_DEVICES=0 python train_clip_regdb.py
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset 'sysu' --resume_path 'checkpoints/model_best.pth'
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset 'regdb' --resume_path 'checkpoints/model_best.pth'
+```
